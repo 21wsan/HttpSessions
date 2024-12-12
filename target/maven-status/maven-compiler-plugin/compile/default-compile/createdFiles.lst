@@ -1,0 +1,9 @@
+org\wsan\apiservlet\webapp\headers\services\LoginService.class
+org\wsan\apiservlet\webapp\headers\models\Producto.class
+org\wsan\apiservlet\webapp\headers\controller\ProductoServlet.class
+org\wsan\apiservlet\webapp\headers\services\ProductoService.class
+org\wsan\apiservlet\webapp\headers\services\ProductoServiceImpl.class
+org\wsan\apiservlet\webapp\headers\controller\LoginServlet.class
+org\wsan\apiservlet\webapp\headers\controller\LogoutServlet.class
+org\wsan\apiservlet\webapp\headers\services\LoginServiceCookieImpl.class
+org\wsan\apiservlet\webapp\headers\services\LoginServiceSessionImpl.class
