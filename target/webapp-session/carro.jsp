@@ -10,7 +10,7 @@ Carro carro = (Carro) session.getAttribute("carro");
 </head>
 <body>
 <h1>Carro de Compras</h1>
-<% if (carro == null || carro.getItems().isEmpty()){%>d    <p>Lo sentimos no hay productos en el carro de compras!</p>
+<% if (carro == null || carro.getItems().isEmpty()){%><p>Lo sentimos no hay productos en el carro de compras!</p>
 <%} else {%>
 <table>
     <tr>
@@ -36,6 +36,6 @@ Carro carro = (Carro) session.getAttribute("carro");
 </table>
 <%}%>
 <p><a href="<%=request.getContextPath()%>/productos">seguir comprando</a></p>
-<p><a href="<%=request.getContextPath()%>/index.html"></a>volver</p>
+<p><a href="<%=request.getContextPath()%>/index.html">volver</a></p>
 </body>
 </html>
