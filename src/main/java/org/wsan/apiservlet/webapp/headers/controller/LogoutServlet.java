@@ -17,7 +17,7 @@ public class LogoutServlet extends HttpServlet {
 
         LoginService auth = new LoginServiceSessionImpl();
         Optional<String> username = auth.getUsername(req);
-        if(username.isPresent()){
+        if (username.isPresent()) {
             HttpSession session = req.getSession();
             session.invalidate();
         }

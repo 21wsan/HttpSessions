@@ -36,7 +36,6 @@ public class ItemCarro {
                 && Objects.equals(producto.getNombre(), itemCarro.producto.getNombre());
     }
 
-    //esto es un metodo
     public int getImporte() {
         return cantidad * producto.getPrecio();
     }

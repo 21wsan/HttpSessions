@@ -8,21 +8,21 @@ import jakarta.servlet.http.HttpSessionListener;
 import org.wsan.apiservlet.webapp.headers.models.Carro;
 
 @WebListener
-public class AplicacionListener implements ServletContextListener, ServletRequestListener, HttpSessionListener {
+public class AplicacionListener implements ServletContextListener,
+        ServletRequestListener, HttpSessionListener {
 
     private ServletContext servletContext;
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        sce.getServletContext().log("inicializando la aplicación");
+        sce.getServletContext().log("inicializando la aplicacion!");
         servletContext = sce.getServletContext();
-        servletContext.setAttribute("message", "algún valor global de la app!!");
+        servletContext.setAttribute("mensaje", "algun valor global de la app!");
     }
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-        servletContext.log("destruyendo la aplicación");
-
+        servletContext.log("destruyendo la aplicacion!");
     }
 
     @Override
@@ -34,12 +34,11 @@ public class AplicacionListener implements ServletContextListener, ServletReques
     @Override
     public void requestDestroyed(ServletRequestEvent sre) {
         servletContext.log("destruyendo el request!");
-
     }
 
     @Override
     public void sessionCreated(HttpSessionEvent se) {
-        servletContext.log("inicializando la session http");
+        servletContext.log("inicializando la sesion http");
         Carro carro = new Carro();
         HttpSession session = se.getSession();
         session.setAttribute("carro", carro);
@@ -47,7 +46,6 @@ public class AplicacionListener implements ServletContextListener, ServletReques
 
     @Override
     public void sessionDestroyed(HttpSessionEvent se) {
-        servletContext.log("destruyendo la session http");
-
+        servletContext.log("destruyendo la sesion http");
     }
 }
