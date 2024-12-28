@@ -1,11 +1,13 @@
 package org.wsan.apiservlet.webapp.headers.listeners;
 
 import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebListener;
 import jakarta.servlet.http.HttpSession;
 import jakarta.servlet.http.HttpSessionEvent;
 import jakarta.servlet.http.HttpSessionListener;
 import org.wsan.apiservlet.webapp.headers.models.Carro;
 
+@WebListener
 public class AplicacionListener implements ServletContextListener,
     ServletRequestListener, HttpSessionListener{
 

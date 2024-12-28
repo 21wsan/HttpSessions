@@ -12,7 +12,7 @@ Carro carro = (Carro) session.getAttribute("carro");
 <h1>Carro de Compras</h1>
 <% if(carro == null || carro.getItems().isEmpty()){%>
 <p>Lo sentimos no hay productos en el carro de compras!</p>
-<%} else { %>
+<%} else {%>
 <form name="formcarro" action="<%=request.getContextPath()%>/actualizar-carro" method="post">
 <table>
     <tr>
@@ -23,7 +23,7 @@ Carro carro = (Carro) session.getAttribute("carro");
         <th>total</th>
         <th>borrar</th>
     </tr>
-    <%for(ItemCarro item: carro.getItems()){%>
+    <%for(ItemCarro item : carro.getItems()){%>
     <tr>
         <td><%=item.getProducto().getId()%></td>
         <td><%=item.getProducto().getNombre()%></td>
