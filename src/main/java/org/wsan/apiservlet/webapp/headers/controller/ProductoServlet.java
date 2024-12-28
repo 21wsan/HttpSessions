@@ -58,7 +58,7 @@ public class ProductoServlet extends HttpServlet {
                     out.println("<td>" + p.getPrecio() + "</td>");
                     out.println("<td><a href=\""
                             + req.getContextPath()
-                            + "/agregar-carro?id=" + p.getId()
+                            + "/carro/agregar?id=" + p.getId()
                             + "\">agregar al carro</a></td>");
                 }
                 out.println("</tr>");
@@ -66,6 +66,7 @@ public class ProductoServlet extends HttpServlet {
             out.println("</table>");
             out.println("<p>" + mensajeApp + "</p>");
             out.println("<p>" + mensajeRequest + "</p>");
+            out.println("<p><a href='" + req.getContextPath() + "/index.html'>volver</a></p>");
             out.println("    </body>");
             out.println("</html>");
         }
