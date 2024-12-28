@@ -11,5 +11,6 @@ org\wsan\apiservlet\webapp\headers\controller\ProductoServlet.class
 org\wsan\apiservlet\webapp\headers\models\ItemCarro.class
 org\wsan\apiservlet\webapp\headers\controller\ActualizarCarroServlet.class
 org\wsan\apiservlet\webapp\headers\services\ProductoServiceImpl.class
+org\wsan\apiservlet\webapp\headers\filters\LoginFiltro.class
 org\wsan\apiservlet\webapp\headers\controller\VerCarroServlet.class
 org\wsan\apiservlet\webapp\headers\services\LoginServiceSessionImpl.class

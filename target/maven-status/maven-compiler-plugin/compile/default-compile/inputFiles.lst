@@ -4,6 +4,7 @@ C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\services\ProductoService.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\services\LoginServiceCookieImpl.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\controller\AgregarCarroServlet.java
+C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\filters\LoginFiltro.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\models\Producto.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\controller\LogoutServlet.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\listeners\AplicacionListener.java

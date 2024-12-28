@@ -36,15 +36,15 @@ public class ProductoServlet extends HttpServlet {
             out.println("    </head>");
             out.println("    <body>");
             out.println("        <h1>Listado de Productos!</h1>");
-            if(usernameOptional.isPresent()) {
+            if (usernameOptional.isPresent()) {
                 out.println("<div style='color: blue;'>Hola " + usernameOptional.get() + " Bienvenido!</div>");
             }
-                out.println("<table>");
+            out.println("<table>");
             out.println("<tr>");
             out.println("<th>id</th>");
             out.println("<th>nombre</th>");
             out.println("<th>tipo</th>");
-            if(usernameOptional.isPresent()) {
+            if (usernameOptional.isPresent()) {
                 out.println("<th>precio</th>");
                 out.println("<th>agregar</th>");
             }
@@ -54,7 +54,7 @@ public class ProductoServlet extends HttpServlet {
                 out.println("<td>" + p.getId() + "</td>");
                 out.println("<td>" + p.getNombre() + "</td>");
                 out.println("<td>" + p.getTipo() + "</td>");
-                if(usernameOptional.isPresent()) {
+                if (usernameOptional.isPresent()) {
                     out.println("<td>" + p.getPrecio() + "</td>");
                     out.println("<td><a href=\""
                             + req.getContextPath()
