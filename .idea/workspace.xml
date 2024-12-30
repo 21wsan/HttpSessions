@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="768f4fdd-b2da-4d98-bdcd-666d7a518e9d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ActualizarCarroServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ActualizarCarroServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/VerCarroServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/VerCarroServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/filters/LoginFiltro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/filters/LoginFiltro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/carro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/carro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/filters/LoginFiltro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/filters/LoginFiltro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/filters/LoginFiltro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/filters/LoginFiltro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/carro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/carro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/util/ConexionBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/util/ConexionBaseDatos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
