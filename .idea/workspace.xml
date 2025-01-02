@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="768f4fdd-b2da-4d98-bdcd-666d7a518e9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/ServiceJdbcException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
