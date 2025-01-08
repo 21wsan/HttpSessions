@@ -15,6 +15,7 @@ String mensajeApp = (String) getServletContext().getAttribute("mensaje");
 <h1>Listado de Productos</h1>
 <%if(username.isPresent()){%>
 <div>Hola <%=username.get()%>, bienvenido!</div>
+<p><a href="<%=request.getContextPath()%>/productos/form">Crear [+]</a></p>
 <%}%>
 <table>
     <tr>
