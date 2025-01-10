@@ -20,7 +20,7 @@ public class ProductoRepositoryJdbcImpl implements Repository<Producto>{
         List<Producto> productos = new ArrayList<>();
         try(Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT p.*, c.nombre as categoria FROM productos as p " +
-                    " inner join categorias as c ON (p.categoria_id = c.id)")){
+                    " inner join categorias as c ON (p.categoria_id = c.id) order by p.id ASC")){
             while(rs.next()){
                 Producto p = getProducto(rs);
 
