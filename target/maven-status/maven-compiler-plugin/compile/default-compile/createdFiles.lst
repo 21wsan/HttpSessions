@@ -1,6 +1,7 @@
 org\wsan\apiservlet\webapp\headers\models\Producto.class
 org\wsan\apiservlet\webapp\headers\repositories\CategoriaRepositoryImpl.class
 org\wsan\apiservlet\webapp\headers\models\Carro.class
+org\wsan\apiservlet\webapp\headers\controller\ProductoEliminarServlet.class
 org\wsan\apiservlet\webapp\headers\services\LoginServiceCookieImpl.class
 org\wsan\apiservlet\webapp\headers\listeners\AplicacionListener.class
 org\wsan\apiservlet\webapp\headers\controller\ProductoServlet.class

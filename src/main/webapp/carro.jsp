@@ -42,6 +42,6 @@ Carro carro = (Carro) session.getAttribute("carro");
 </form>
 <%}%>
 <p><a href="<%=request.getContextPath()%>/productos">seguir comprando</a></p>
-<p><a href="<%=request.getContextPath()%>/index.html">volver</a></p>
+<p><a href="<%=request.getContextPath()%>/index.html">volver al inicio</a></p>
 </body>
 </html>

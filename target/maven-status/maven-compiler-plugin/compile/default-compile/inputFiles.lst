@@ -7,6 +7,7 @@ C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\models\ItemCarro.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\repositories\CategoriaRepositoryImpl.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\services\ServiceJdbcException.java
+C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\controller\ProductoEliminarServlet.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\models\Categoria.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\controller\VerCarroServlet.java
 C:\Users\sancheznw\Documents\Cursos\JavaEE\webapp-session\src\main\java\org\wsan\apiservlet\webapp\headers\services\ProductoService.java
