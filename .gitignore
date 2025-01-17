@@ -8,13 +8,16 @@ build/
 *.war
 *.class
 
+# Ignorar archivos .war
+/*.war
+
 # IntelliJ IDEA
 .idea/
 *.iml
 
 # Output directories
-bin/
-build/
+/bin/
+/build/
 out/
 target/
 
