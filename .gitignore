@@ -5,6 +5,8 @@ mvnw.cmd
 .gradle/
 build/
 *.jar
+*.war
+*.class
 
 # IntelliJ IDEA
 .idea/
