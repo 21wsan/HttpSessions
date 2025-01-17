@@ -1,0 +1,28 @@
+# Maven and Gradle
+.mvn/
+mvnw
+mvnw.cmd
+.gradle/
+build/
+*.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Output directories
+bin/
+build/
+out/
+target/
+
+# Log files
+*.log
+
+# System files
+DS_Store
+*.tmp
+
+# Temporary files
+*.bak
+*.swp
