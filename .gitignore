@@ -19,7 +19,7 @@ build/
 /bin/
 /build/
 out/
-target/
+/target/
 
 # Log files
 *.log
