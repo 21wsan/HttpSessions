@@ -4,7 +4,6 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import org.wsan.apiservlet.webapp.headers.services.LoginService;
-import org.wsan.apiservlet.webapp.headers.services.LoginServiceCookieImpl;
 import org.wsan.apiservlet.webapp.headers.services.LoginServiceSessionImpl;
 
 import java.io.IOException;
@@ -21,6 +20,6 @@ public class LogoutServlet extends HttpServlet {
             HttpSession session = req.getSession();
             session.invalidate();
         }
-        resp.sendRedirect(req.getContextPath() + "/login.html");
+        resp.sendRedirect(req.getContextPath() + "/login.jsp");
     }
 }

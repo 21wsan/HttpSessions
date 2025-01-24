@@ -4,7 +4,6 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import org.wsan.apiservlet.webapp.headers.services.LoginService;
-import org.wsan.apiservlet.webapp.headers.services.LoginServiceCookieImpl;
 import org.wsan.apiservlet.webapp.headers.services.LoginServiceSessionImpl;
 
 import java.io.IOException;
@@ -33,12 +32,13 @@ public class LoginServlet extends HttpServlet {
                 out.println("    </head>");
                 out.println("    <body>");
                 out.println("        <h1>Hola " + usernameOptional.get() + " has iniciado sesión con éxito!</h1>");
-                out.println("<p><a href='" + req.getContextPath() + "/index.html'>volver</a></p>");
+                out.println("<p><a href='" + req.getContextPath() + "/index.jsp'>volver</a></p>");
                 out.println("<p><a href='" + req.getContextPath() + "/logout'>cerrar sesión</a></p>");
                 out.println("    </body>");
                 out.println("</html>");
             }
         } else {
+            req.setAttribute("title", req.getAttribute("title") + ": Login");
             getServletContext().getRequestDispatcher("/login.jsp").forward(req, resp);
         }
     }
@@ -53,7 +53,7 @@ public class LoginServlet extends HttpServlet {
             HttpSession session = req.getSession();
             session.setAttribute("username", username);
 
-            resp.sendRedirect(req.getContextPath() + "/login.html");
+            resp.sendRedirect(req.getContextPath() + "/login.jsp");
         } else {
             resp.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Lo sentimos no esta autorizado para ingresar a esta página!");
         }

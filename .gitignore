@@ -20,6 +20,10 @@ build/
 /build/
 out/
 /target/
+target/
+/target
+/target/webapp-session.war
+
 
 # Log files
 *.log

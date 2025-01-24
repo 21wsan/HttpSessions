@@ -1,19 +1,13 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<jsp:include page="layout/header.jsp" />
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Listado de Productos</title>
-</head>
-<body>
-<h1>Listado de Productos</h1>
+<h3>${title}</h3>
 <c:if test="${username.present}">
-    <div>Hola ${username.get()}, bienvenido!</div>
-    <p><a href="${pageContext.request.contextPath}/productos/form">Crear [+]</a></p>
+    <div class="alert alert-info">Hola ${username.get()}, bienvenido!</div>
+    <a class="btn btn-primary my-2" href="${pageContext.request.contextPath}/productos/form">Crear [+]</a>
 </c:if>
-<table>
+<table class="table table-hover table-striped">
     <tr>
         <th>id</th>
         <th>nombre</th>
@@ -32,16 +26,15 @@
             <td>${p.categoria.nombre}</td>
             <c:if test="${username.present}">
             <td>${p.precio}</td>
-            <td><a href="${pageContext.request.contextPath}/carro/agregar?id=${p.id}">agregar al carro</a></td>
-            <td><a href="${pageContext.request.contextPath}/productos/form?id=${p.id}">editar</a></td>
-            <td><a onclick="return confirm('esta seguro que desea eliminar?');"
+            <td><a class="btn btn-sm btn-primary" href="${pageContext.request.contextPath}/carro/agregar?id=${p.id}">agregar al carro</a></td>
+            <td><a class="btn btn-sm btn-success" href="${pageContext.request.contextPath}/productos/form?id=${p.id}">editar</a></td>
+            <td><a class="btn btn-sm btn-danger" onclick="return confirm('esta seguro que desea eliminar?');"
              href="${pageContext.request.contextPath}/productos/eliminar?id=${p.id}">eliminar</a></td>
             </c:if>
         </tr>
     </c:forEach>
 </table>
-<p><a href='/webapp-session/index.html'>volver al inicio</a></p>
+<p><a class="btn btn-sm btn-secondary" href='/webapp-session/index.jsp'>volver al inicio</a></p>
 <p>${applicationScope.mensaje}</p>
 <p>${requestScope.mensaje}</p>
-</body>
-</html>
+<jsp:include page="layout/footer.jsp" />
