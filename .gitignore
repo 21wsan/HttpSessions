@@ -4,6 +4,7 @@ mvnw
 mvnw.cmd
 .gradle/
 build/
+target/
 *.jar
 *.war
 *.class
@@ -20,14 +21,13 @@ build/
 /build/
 out/
 /target/
-target/
 /target
 /target/webapp-session.war
 
 
 # Log files
 *.log
-
+*.lst
 # System files
 DS_Store
 *.tmp
