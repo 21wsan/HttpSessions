@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="768f4fdd-b2da-4d98-bdcd-666d7a518e9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/models/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/UsuarioRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/UsuarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/UsuarioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/util/ConexionBaseDatosDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_curso.sql" beforeDir="false" afterPath="$PROJECT_DIR$/java_curso.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/filters/ConexionFilter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.wsan.apiservlet.webapp.headers.models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.wsan.apiservlet.webapp.headers.util" />
     </key>
   </component>
   <component name="RunManager">
