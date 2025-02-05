@@ -14,12 +14,45 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/listeners/AplicacionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/listeners/AplicacionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/models/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/models/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/carro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/carro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/ActualizarCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/ActualizarCarroServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/models/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/models/Carro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/ActualizarCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/ActualizarCarroServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/models/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/models/Carro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/ActualizarCarroServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/controller/ProductoEliminarServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/filters/LoginFiltro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/models/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/models/Categoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/models/ItemCarro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/models/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/repositories/CategoriaRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/repositories/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/services/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/services/LoginServiceCookieImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/services/LoginServiceSessionImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/services/ProductoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/services/ProductoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/services/ServiceJdbcException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wsan/apiservlet/webapp/headers/util/ConexionBaseDatos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/ActualizarCarroServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/controller/ProductoEliminarServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/filters/LoginFiltro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/models/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/models/Categoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/models/ItemCarro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/models/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/repositories/CategoriaRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/repositories/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/services/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/services/LoginServiceCookieImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/services/LoginServiceSessionImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/services/ProductoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/services/ProductoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/services/ServiceJdbcException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/org/wsan/apiservlet/webapp/headers/util/ConexionBaseDatos.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
