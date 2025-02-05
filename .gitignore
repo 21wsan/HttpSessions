@@ -5,6 +5,8 @@ mvnw.cmd
 .gradle/
 build/
 target/
+target/*
+target/*.class
 *.jar
 *.war
 *.class
