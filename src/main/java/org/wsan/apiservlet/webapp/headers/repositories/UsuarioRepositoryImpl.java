@@ -1,5 +1,8 @@
 package org.wsan.apiservlet.webapp.headers.repositories;
 
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 import org.wsan.apiservlet.webapp.headers.models.Usuario;
 
 import java.sql.Connection;
@@ -8,15 +11,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+@ApplicationScoped
 public class UsuarioRepositoryImpl implements UsuarioRepository{
 
-    //atributo de conexion para cualquier implementación
+    @Inject
+    @Named("conn")
     private Connection conn;
-
-    //constructor
-    public UsuarioRepositoryImpl(Connection conn){
-        this.conn = conn;
-    }
+    //atributo de conexion para cualquier implementación
 
     @Override
     public List<Usuario> listar() throws SQLException {

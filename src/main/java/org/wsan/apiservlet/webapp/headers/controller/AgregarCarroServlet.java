@@ -1,6 +1,7 @@
 package org.wsan.apiservlet.webapp.headers.controller;
 
 import jakarta.inject.Inject;
+import jakarta.inject.Named;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -22,12 +23,13 @@ import java.util.Optional;
 public class AgregarCarroServlet extends HttpServlet {
 
     @Inject
+    private ProductoService service;
+
+    @Inject
     private Carro carro;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Long id = Long.parseLong(req.getParameter("id"));
-        Connection conn = (Connection) req.getAttribute("conn");
-        ProductoService service = new ProductoServiceJdbcImpl(conn);
         Optional<Producto> producto = service.porId(id);
         if (producto.isPresent()) {
             ItemCarro item = new ItemCarro(1, producto.get());
