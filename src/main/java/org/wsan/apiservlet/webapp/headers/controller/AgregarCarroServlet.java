@@ -8,6 +8,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import org.wsan.apiservlet.webapp.headers.configs.ProductoServicePrincipal;
 import org.wsan.apiservlet.webapp.headers.models.Carro;
 import org.wsan.apiservlet.webapp.headers.models.ItemCarro;
 import org.wsan.apiservlet.webapp.headers.models.Producto;
@@ -23,6 +24,7 @@ import java.util.Optional;
 public class AgregarCarroServlet extends HttpServlet {
 
     @Inject
+    @ProductoServicePrincipal
     private ProductoService service;
 
     @Inject

@@ -3,10 +3,6 @@ package org.wsan.apiservlet.webapp.headers.configs;
 import jakarta.annotation.Resource;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.enterprise.inject.Produces;
-import jakarta.inject.Named;
-
-import javax.naming.Context;
-import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -19,7 +15,8 @@ public class ProducerResources {
 
     @Produces
     @RequestScoped
-    @Named("conn")
+    //@Named("conn")    -   es reemplazado por Qualifier @MysqlConn
+    @MysqlConn
     private Connection beanConnection() throws NamingException, SQLException {
         //Context initContext = new InitialContext();
         //Context envContext  = (Context)initContext.lookup("java:/comp/env");

@@ -7,6 +7,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.wsan.apiservlet.webapp.headers.configs.ProductoServicePrincipal;
 import org.wsan.apiservlet.webapp.headers.models.Producto;
 import org.wsan.apiservlet.webapp.headers.services.*;
 
@@ -18,6 +19,7 @@ import java.util.Optional;
 public class ProductoServlet extends HttpServlet {
 
     @Inject
+    @ProductoServicePrincipal
     private ProductoService service;
 
     @Inject

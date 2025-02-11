@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="768f4fdd-b2da-4d98-bdcd-666d7a518e9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/configs/ProducerResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/configs/MysqlConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/configs/ProductoServicePrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/configs/ProducerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/configs/ProducerResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/AgregarCarroServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/LogoutServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoEliminarServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoEliminarServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoFormServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/controller/ProductoServlet.java" afterDir="false" />
@@ -17,12 +17,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/CategoriaRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/CategoriaRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/UsuarioRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/repositories/UsuarioRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/LoginServiceCookieImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/LoginServiceCookieImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/LoginServiceSessionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/LoginServiceSessionImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/ProductoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wsan/apiservlet/webapp/headers/services/UsuarioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,7 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -66,6 +63,7 @@
       <recent name="org.wsan.apiservlet.webapp.headers.models" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.wsan.apiservlet.webapp.headers.configs" />
       <recent name="org.wsan.apiservlet.webapp.headers.util" />
     </key>
   </component>

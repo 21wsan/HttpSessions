@@ -3,6 +3,7 @@ package org.wsan.apiservlet.webapp.headers.services;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
+import org.wsan.apiservlet.webapp.headers.configs.ProductoServicePrincipal;
 import org.wsan.apiservlet.webapp.headers.models.Categoria;
 import org.wsan.apiservlet.webapp.headers.models.Producto;
 import org.wsan.apiservlet.webapp.headers.repositories.Repository;
@@ -12,6 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @ApplicationScoped
+@ProductoServicePrincipal
 public class ProductoServiceJdbcImpl implements ProductoService{
 
     @Inject

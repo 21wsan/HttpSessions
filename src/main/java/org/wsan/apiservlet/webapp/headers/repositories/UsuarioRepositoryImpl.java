@@ -3,6 +3,7 @@ package org.wsan.apiservlet.webapp.headers.repositories;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
+import org.wsan.apiservlet.webapp.headers.configs.MysqlConn;
 import org.wsan.apiservlet.webapp.headers.models.Usuario;
 
 import java.sql.Connection;
@@ -15,7 +16,7 @@ import java.util.List;
 public class UsuarioRepositoryImpl implements UsuarioRepository{
 
     @Inject
-    @Named("conn")
+    @MysqlConn
     private Connection conn;
     //atributo de conexion para cualquier implementación
 

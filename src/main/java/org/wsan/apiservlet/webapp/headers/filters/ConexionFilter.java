@@ -1,14 +1,12 @@
 package org.wsan.apiservlet.webapp.headers.filters;
 
 import jakarta.inject.Inject;
-import jakarta.inject.Named;
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletResponse;
+import org.wsan.apiservlet.webapp.headers.configs.MysqlConn;
 import org.wsan.apiservlet.webapp.headers.services.ServiceJdbcException;
-import org.wsan.apiservlet.webapp.headers.util.ConexionBaseDatosDS;
 
-import javax.naming.NamingException;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -18,7 +16,7 @@ import java.sql.SQLException;
 public class ConexionFilter implements Filter {
 
     @Inject
-    @Named("conn")
+    @MysqlConn
     private Connection conn;
 
     @Override
