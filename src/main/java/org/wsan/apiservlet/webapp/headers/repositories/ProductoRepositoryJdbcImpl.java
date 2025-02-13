@@ -3,6 +3,7 @@ package org.wsan.apiservlet.webapp.headers.repositories;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import org.wsan.apiservlet.webapp.headers.configs.MysqlConn;
+import org.wsan.apiservlet.webapp.headers.configs.Repositorio;
 import org.wsan.apiservlet.webapp.headers.models.Categoria;
 import org.wsan.apiservlet.webapp.headers.models.Producto;
 
@@ -10,7 +11,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@ApplicationScoped
+@Repositorio
 public class ProductoRepositoryJdbcImpl implements Repository<Producto> {
 
     @Inject
