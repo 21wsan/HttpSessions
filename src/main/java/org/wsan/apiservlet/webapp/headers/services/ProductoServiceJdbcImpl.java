@@ -2,25 +2,25 @@ package org.wsan.apiservlet.webapp.headers.services;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
-import jakarta.inject.Named;
 import org.wsan.apiservlet.webapp.headers.configs.ProductoServicePrincipal;
+import org.wsan.apiservlet.webapp.headers.configs.Service;
+import org.wsan.apiservlet.webapp.headers.interceptors.Logging;
 import org.wsan.apiservlet.webapp.headers.models.Categoria;
 import org.wsan.apiservlet.webapp.headers.models.Producto;
-import org.wsan.apiservlet.webapp.headers.repositories.Repository;
+import org.wsan.apiservlet.webapp.headers.repositories.CrudRepository;
 
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
-
-@ApplicationScoped
+@Service
 @ProductoServicePrincipal
 public class ProductoServiceJdbcImpl implements ProductoService{
 
     @Inject
-    private Repository<Producto> repositoryJdbc;
+    private CrudRepository<Producto> repositoryJdbc;
 
     @Inject
-    private Repository<Categoria> repositoryCategoriaJdbc;
+    private CrudRepository<Categoria> repositoryCategoriaJdbc;
 
     @Override
     public List<Producto> listar() {

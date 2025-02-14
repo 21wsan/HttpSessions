@@ -16,6 +16,7 @@ target/*.class
 
 # IntelliJ IDEA
 .idea/
+/.idea/
 *.iml
 
 # Output directories

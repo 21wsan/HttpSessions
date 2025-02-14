@@ -1,18 +1,32 @@
 package org.wsan.apiservlet.webapp.headers.models;
 
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
+import jakarta.inject.Inject;
 import org.wsan.apiservlet.webapp.headers.configs.CarroCompra;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.logging.Logger;
 
 @CarroCompra
 public class Carro implements Serializable {
     private List<ItemCarro> items;
 
-    public Carro() {
+    @Inject
+    private transient Logger log;
+
+    @PostConstruct
+    public void inicializar(){
         this.items = new ArrayList<>();
+        log.info("inicializando el carro de compras!!");
+    }
+
+    @PreDestroy
+    public void destruir(){
+        log.info("destruyendo el carro de compras!!");
     }
 
     public void addItemCarro(ItemCarro itemCarro) {
@@ -22,12 +36,13 @@ public class Carro implements Serializable {
                     .findAny();
             if (optionalItemCarro.isPresent()) {
                 ItemCarro i = optionalItemCarro.get();
-                i.setCantidad(i.getCantidad()+1);
+                i.setCantidad(i.getCantidad() + 1);
             }
         } else {
             this.items.add(itemCarro);
         }
     }
+
     public List<ItemCarro> getItems() {
         return items;
     }
@@ -55,7 +70,7 @@ public class Carro implements Serializable {
     }
 
     private Optional<ItemCarro> findProducto(String productoId) {
-        return  items.stream()
+        return items.stream()
                 .filter(itemCarro -> productoId.equals(Long.toString(itemCarro.getProducto().getId())))
                 .findAny();
     }
